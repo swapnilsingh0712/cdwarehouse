@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a2c017-910a-494f-a987-e4b8cd311cc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/CD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PurchaseCDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PurchaseCDTest.java" afterDir="false" />
     </list>
@@ -39,6 +42,7 @@
     "JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults.executor": "Run",
     "JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult.executor": "Run",
     "JUnit.PurchaseCDTest.executor": "Run",
+    "JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful">
+  <component name="RunManager" selected="JUnit.PurchaseCDTest">
     <configuration name="CDWarehouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cdwarehouse" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful" />
         <item itemvalue="JUnit.PurchaseCDTest" />
+        <item itemvalue="JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful" />
         <item itemvalue="JUnit.CDWarehouseTest" />
         <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult" />
         <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults" />
