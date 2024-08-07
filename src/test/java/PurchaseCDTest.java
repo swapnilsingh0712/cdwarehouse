@@ -22,4 +22,17 @@ public class PurchaseCDTest {
         assertEquals(9 , cd.getStock());
     }
 
+    @Test
+    public void testDoNotPurchaseSingleCDWhenPaymentUnsuccessful(){
+
+        CD cd = new CD(10);
+        CreditCard creditCard = new CreditCard() {
+            @Override
+            public boolean payment() {
+                return false;
+            }
+        };
+        cd.buy(creditCard);
+        assertEquals(10, cd.getStock());
+    }
 }
