@@ -25,7 +25,11 @@ public class CD {
         if (creditCard.payment()){
             stock = this.stock-purchaseQuantity;
         }
-     this.chart.notify(this.getArtist(),this.getTitle(),purchaseQuantity);
+        notifyChart(purchaseQuantity);
+    }
+
+    private void notifyChart(int purchaseQuantity) {
+        this.chart.notify(this.getArtist(),this.getTitle(), purchaseQuantity);
     }
 
     public String getArtist() {
