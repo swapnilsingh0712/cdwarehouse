@@ -11,12 +11,7 @@ public class PurchaseCDTest {
 
 
         CD cd = new CD(10);
-        CreditCard creditCard = new CreditCard(){
-            @Override
-            public boolean payment() {
-                return true;
-            }
-        };
+        CreditCard creditCard = () -> true;
 
         cd.buy(creditCard);
         assertEquals(9 , cd.getStock());
@@ -26,12 +21,7 @@ public class PurchaseCDTest {
     public void testDoNotPurchaseSingleCDWhenPaymentUnsuccessful(){
 
         CD cd = new CD(10);
-        CreditCard creditCard = new CreditCard() {
-            @Override
-            public boolean payment() {
-                return false;
-            }
-        };
+        CreditCard creditCard = () -> false;
         cd.buy(creditCard);
         assertEquals(10, cd.getStock());
     }
