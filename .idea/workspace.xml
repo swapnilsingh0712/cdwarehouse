@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a2c017-910a-494f-a987-e4b8cd311cc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PurchaseCDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CDWarehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/CDWarehouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CDWarehouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CDWarehouseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testlist" beforeDir="false" afterPath="$PROJECT_DIR$/testlist" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +23,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2kI1Cf3gGVs0oPn5DoY9eN2gg8h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,8 +44,10 @@
     "JUnit.CDWarehouseTest.executor": "Run",
     "JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults.executor": "Run",
     "JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult.executor": "Run",
+    "JUnit.PurchaseCDTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -54,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CDWarehouseTest">
+  <component name="RunManager" selected="JUnit.PurchaseCDTest">
     <configuration name="CDWarehouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cdwarehouse" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,8 +93,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PurchaseCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdwarehouse" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PurchaseCDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PurchaseCDTest" />
         <item itemvalue="JUnit.CDWarehouseTest" />
         <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult" />
         <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults" />
