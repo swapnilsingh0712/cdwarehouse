@@ -10,11 +10,22 @@ public class CD {
     private String title;
     private Chart chart;
 
-    public CD(String artist, String title, int stock, Chart chart) {
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    private double price;
+
+    public CD(String artist, String title, int stock, Chart chart, double price) {
         this.stock = stock;
         this.artist = artist;
         this.title = title;
         this.chart = chart;
+        this.price = price;
     }
 
     public int getStock() {
@@ -38,5 +49,15 @@ public class CD {
 
     public String getTitle() {
         return title;
+    }
+
+    public void checkLowestPriceGurantee(Competitor competitor) {
+        if (this.chart.getPosition("artist", "title") <= 100) {
+
+
+            if (this.price >= competitor.getPrice()) {
+                this.price = competitor.getPrice() - 1;
+            }
+        }
     }
 }
