@@ -21,7 +21,16 @@ public class PurchaseCDTest {
     public void testDoNotPurchaseSingleCDWhenPaymentUnsuccessful(){
 
         CD cd = new CD(10);
+<<<<<<< HEAD
         CreditCard creditCard = () -> false;
+=======
+        CreditCard creditCard = new CreditCard() {
+            @Override
+            public boolean payment() {
+                return false;
+            }
+        };
+>>>>>>> da3362ed208e33323641d24f5075b9752f5fae9e
         cd.buy(creditCard);
         assertEquals(10, cd.getStock());
     }
