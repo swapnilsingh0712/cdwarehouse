@@ -6,17 +6,17 @@ public class CD {
 
     private int stock;
 
-    public CD(int i) {
-        this.stock = i;
+    public CD(int stock) {
+        this.stock = stock;
     }
 
     public int getStock() {
         return stock;
     }
 
-    public void buy(CreditCard creditCard) {
+    public void buy(CreditCard creditCard, int purchaseQuantity) {
         if (creditCard.payment()){
-            stock = this.stock-1;
+            stock = this.stock-purchaseQuantity;
         }
     }
 }
