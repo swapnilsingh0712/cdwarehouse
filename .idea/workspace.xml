@@ -38,6 +38,7 @@
     "JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults.executor": "Run",
     "JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult.executor": "Run",
     "JUnit.PurchaseCDTest.executor": "Run",
+    "JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartInTop100AndAtLowestPrice.executor": "Run",
     "JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100.executor": "Run",
     "JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -58,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100">
+  <component name="RunManager" selected="JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartInTop100AndAtLowestPrice">
     <configuration name="CDWarehouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cdwarehouse" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,21 +69,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cdwarehouse" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDWarehouseTest" />
-      <option name="METHOD_NAME" value="testCustomerSearchByTitleReturnsNoResult" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PurchaseCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cdwarehouse" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PurchaseCDTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseCDTest.testLowestPriceGuaranteeWhenChartInTop100AndAtLowestPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdwarehouse" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PurchaseCDTest" />
+      <option name="METHOD_NAME" value="testLowestPriceGuaranteeWhenChartInTop100AndAtLowestPrice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartInTop100AndAtLowestPrice" />
         <item itemvalue="JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100" />
         <item itemvalue="JUnit.PurchaseCDTest" />
         <item itemvalue="JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful" />
         <item itemvalue="JUnit.CDWarehouseTest" />
-        <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult" />
       </list>
     </recent_temporary>
   </component>
