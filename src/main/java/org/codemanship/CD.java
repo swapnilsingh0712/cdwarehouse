@@ -10,21 +10,22 @@ public class CD {
     private String title;
     private Chart chart;
 
-    public CD(String artist, String title, int stock) {
+    public CD(String artist, String title, int stock, Chart chart) {
         this.stock = stock;
         this.artist = artist;
         this.title = title;
+        this.chart = chart;
     }
 
     public int getStock() {
         return stock;
     }
 
-    public void buy(CreditCard creditCard, int purchaseQuantity, Chart chart) {
+    public void buy(CreditCard creditCard, int purchaseQuantity) {
         if (creditCard.payment()){
             stock = this.stock-purchaseQuantity;
         }
-     chart.notify(this.getArtist(),this.getTitle(),purchaseQuantity);
+     this.chart.notify(this.getArtist(),this.getTitle(),purchaseQuantity);
     }
 
     public String getArtist() {
