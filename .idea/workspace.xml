@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a2c017-910a-494f-a987-e4b8cd311cc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Competitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Chart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PurchaseCDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PurchaseCDTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +38,7 @@
     "JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults.executor": "Run",
     "JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult.executor": "Run",
     "JUnit.PurchaseCDTest.executor": "Run",
+    "JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100.executor": "Run",
     "JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,22 +58,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PurchaseCDTest">
+  <component name="RunManager" selected="JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100">
     <configuration name="CDWarehouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cdwarehouse" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CDWarehouseTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cdwarehouse" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDWarehouseTest" />
-      <option name="METHOD_NAME" value="testCustomerSearchByArtistReturnsNoResults" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +87,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdwarehouse" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PurchaseCDTest" />
+      <option name="METHOD_NAME" value="testLowestPriceGuaranteeWhenChartNotinTop100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cdwarehouse" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PurchaseCDTest.testLowestPriceGuaranteeWhenChartNotinTop100" />
         <item itemvalue="JUnit.PurchaseCDTest" />
         <item itemvalue="JUnit.PurchaseCDTest.testPurchaseMultipleCDWhenPaymentSuccessful" />
         <item itemvalue="JUnit.CDWarehouseTest" />
         <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByTitleReturnsNoResult" />
-        <item itemvalue="JUnit.CDWarehouseTest.testCustomerSearchByArtistReturnsNoResults" />
       </list>
     </recent_temporary>
   </component>

@@ -65,5 +65,15 @@ public class PurchaseCDTest {
         assertEquals(cd.getPrice(),competitor.getPrice()-1);
     }
 
+    @Test
+    public void testLowestPriceGuaranteeWhenChartNotinTop100(){
 
+        CD cd = new CD("artist","title",10,chart,50.0);
+        when(chart.getPosition("artist", "title")).thenReturn(110);
+        Competitor competitor = mock(Competitor.class);
+        when(competitor.getPrice()).thenReturn(33.0);
+        cd.checkLowestPriceGurantee(competitor);
+        assertEquals(cd.getPrice(), 50.0);
+
+    }
 }
